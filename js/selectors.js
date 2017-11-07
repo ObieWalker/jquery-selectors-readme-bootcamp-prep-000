@@ -3,8 +3,18 @@ function paragraphSelector() {
   return $('p')
 }
 
-$('img')
+function lastImageSelector(){
+  return $('img: last')
+}
 
-$('.pics')
+$function ninjaBabySelector() {
+  return $('#baby-ninja')
+}
 
-$(#baby-ninja)
+function divSelector() {
+  return $('.pics')
+}
+
+function firstListItem() {
+  return $('li:first')
+}
